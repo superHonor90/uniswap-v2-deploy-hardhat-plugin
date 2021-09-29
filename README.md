@@ -1,23 +1,23 @@
-# uniswap-v3-deploy-plugin
+# uniswap-v2-deploy-plugin
 
 Deploy Uniswap V3 contracts in development.
 
 ## Installation
 
 ```sh
-$ npm install uniswap-v3-deploy-plugin
+$ npm install uniswap-v2-deploy-plugin
 ```
 
 Import the plugin in your `hardhat.config.js`:
 
 ```js
-require("uniswap-v3-deploy-plugin");
+require("uniswap-v2-deploy-plugin");
 ```
 
 Or if you are using TypeScript, in your `hardhat.config.ts`:
 
 ```ts
-import "uniswap-v3-deploy-plugin";
+import "uniswap-v2-deploy-plugin";
 ```
 
 Now, run `npm run hardhat` and you should see:

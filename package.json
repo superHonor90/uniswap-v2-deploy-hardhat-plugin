@@ -1,9 +1,9 @@
 {
-  "name": "uniswap-v3-deploy-plugin",
-  "version": "0.1.0",
-  "description": "Hardhat plugin for Uniswap V3 deployment",
-  "repository": "github:omarish/uniswap-v3-deploy-plugin",
-  "author": "Omar Bohsali",
+  "name": "uniswap-v2-deploy-plugin",
+  "version": "0.0.0",
+  "description": "Hardhat plugin for Uniswap V2 deployment",
+  "repository": "github:alexbharley/uniswap-v2-deploy-plugin",
+  "author": "Alex Harley",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -48,8 +48,9 @@
     "hardhat": "^2.0.0"
   },
   "dependencies": {
-    "@uniswap/v3-core": "1.0.0",
-    "@uniswap/v3-periphery": "^1.0.1",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "1.1.0-beta.0",
+    "@uniswap/v2-sdk": "^3.0.0",
     "cli-table3": "^0.6.0"
   }
 }
