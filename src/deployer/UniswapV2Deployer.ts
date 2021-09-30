@@ -1,5 +1,5 @@
 import { Signer, Contract, ContractFactory, constants } from "ethers";
-import { IUniswapV2Factory, IUniswapV2Router02 } from "../../typechain";
+import { IUniswapV2Factory, IUniswapV2Router02 } from "../types";
 import WETH9 from "../util/WETH9.json";
 
 type ContractJson = { abi: any; bytecode: string };

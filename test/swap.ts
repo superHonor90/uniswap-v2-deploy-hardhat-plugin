@@ -3,14 +3,13 @@ import chai from "chai";
 import chaiAsPromised from "chai-as-promised";
 import { constants, utils } from "ethers";
 import { ethers } from "hardhat";
-import { UniswapV2Deployer } from "../src";
 import {
+  UniswapV2Deployer,
   IUniswapV2Factory,
   IUniswapV2Pair__factory,
   IUniswapV2Router02,
-  Token,
-  Token__factory,
-} from "../typechain";
+} from "../src";
+import { Token, Token__factory } from "../typechain";
 
 chai.use(chaiAsPromised);
 const { expect } = chai;
