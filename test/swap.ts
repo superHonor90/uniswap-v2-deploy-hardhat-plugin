@@ -1,7 +1,7 @@
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 import chai from "chai";
 import chaiAsPromised from "chai-as-promised";
-import { constants, utils, BigNumber } from "ethers";
+import { constants, utils } from "ethers";
 import { ethers } from "hardhat";
 import { UniswapV2Deployer } from "../src";
 import {
