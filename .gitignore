@@ -64,3 +64,8 @@ typings/
 
 .yalc/
 yalc.lock
+
+
+**/cache
+**/artifacts
+**/typechain
