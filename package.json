@@ -7,6 +7,9 @@
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "keywords": [
     "ethereum",
     "smart-contracts",
@@ -22,12 +25,6 @@
     "compile": "TS_NODE_TRANSPILE_ONLY=1 hardhat compile",
     "test": "hardhat test"
   },
-  "files": [
-    "dist/",
-    "src/",
-    "LICENSE",
-    "README.md"
-  ],
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
