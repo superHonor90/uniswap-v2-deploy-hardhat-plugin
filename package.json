@@ -1,6 +1,6 @@
 {
   "name": "uniswap-v2-deploy-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Hardhat plugin for Uniswap V2 deployment",
   "repository": "github:alexbharley/uniswap-v2-deploy-plugin",
   "author": "Alex Harley",
