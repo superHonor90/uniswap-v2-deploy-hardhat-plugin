@@ -13,5 +13,6 @@
     "esModuleInterop": true
   },
   "exclude": ["dist", "node_modules"],
-  "include": ["./test", "./src", "test"]
+  "include": ["./test", "./src", "./typechain"],
+  "files": ["./hardhat.config.ts"]
 }

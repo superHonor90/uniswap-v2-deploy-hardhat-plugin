@@ -17,11 +17,10 @@
   "scripts": {
     "lint:fix": "prettier --write 'src/**/*.{js,ts}' 'test/**/*.{js,ts}' && tslint --fix --config tslint.json --project tsconfig.json",
     "lint": "tslint --config tslint.json --project tsconfig.json",
-    "build": "tsc && compile",
+    "build": "tsc && yarn clean && yarn compile",
     "clean": "hardhat clean",
-    "compile": "hardhat compile",
-    "test": "hardhat test",
-    "coverage": "build && hardhat coverage --temp artifacts --network coverage"
+    "compile": "TS_NODE_TRANSPILE_ONLY=1 hardhat compile",
+    "test": "hardhat test"
   },
   "files": [
     "dist/",
