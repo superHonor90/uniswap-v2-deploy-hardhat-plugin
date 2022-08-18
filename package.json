@@ -1,9 +1,9 @@
 {
   "name": "uniswap-v2-deploy-plugin",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "Hardhat plugin for Uniswap V2 deployment",
-  "repository": "github:alexbharley/uniswap-v2-deploy-plugin",
-  "author": "Alex Harley",
+  "repository": "github:superHonor90/uniswap-v2-deploy-hardhat-plugin",
+  "author": "Roy Thomas",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
