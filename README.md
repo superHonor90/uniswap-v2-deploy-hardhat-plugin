@@ -22,4 +22,8 @@ Or if you are using TypeScript, in your `hardhat.config.ts`:
 import "uniswap-v2-deploy-plugin";
 ```
 
-Great! Now to deploy the contracts in your tests, checkout the [swap.ts](test/swap.ts) file to see how you'd use this plugin to ease your development process.
+Great! Now to deploy the contracts in your tests.
+
+```sh
+$ npm run hardhat deploy-uniswap-v2
+```
